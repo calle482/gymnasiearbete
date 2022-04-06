@@ -65,12 +65,19 @@
                                 <div class="text-center">
                                     <!-- Product name-->
                                   <h5 class="fw-bolder">Place holder</h5>
-                                  <!-- Product price-->
-                                $1 </div>
-                            </div>
-                            <!-- Product actions-->
-                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to cart</a></div>
+									10kr
+<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="VU7Q2NWUS9LK8">
+<div class="card-footer p-4 pt-0 border-top-0 bg-transparent"> </div>
+<input type="submit" value="Add to cart" class="btn btn-outline-dark mt-auto" border="0" name="submit" alt="Add to cart">
+<img alt="" border="0" src="https://www.paypalobjects.com/sv_SE/i/scr/pixel.gif" width="1" height="1">
+</form>
+
+</form>
+
+
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -217,14 +224,50 @@
                 </div>
             </div>
         </section>
-        <!-- Footer-->
-        <footer class="py-5 bg-dark">
-            <div class="container"><p class="m-0 text-center text-white">Copyright &copy; Timothy karlsson 2022</p>
-            </div>
-        </footer>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-    </body>
-</html>
+            <div class="container px-4 px-lg-5 mt-5">
+                <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Product image-->
+                            <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                  <h5 class="fw-bolder">Place holder</h5>
+									10kr
+<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="VU7Q2NWUS9LK8">
+<div class="card-footer p-4 pt-0 border-top-0 bg-transparent"> </div>
+<input type="submit" value="Add to cart" class="btn btn-outline-dark mt-auto" border="0" name="submit" alt="Add to cart">
+<img alt="" border="0" src="https://www.paypalobjects.com/sv_SE/i/scr/pixel.gif" width="1" height="1">
+</form>
+
+
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Product image-->
+                            <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                  <h5 class="fw-bolder">Place holder</h5>
+									10kr
+<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="VU7Q2NWUS9LK8">
+<div class="card-footer p-4 pt-0 border-top-0 bg-transparent"> </div>
+<input type="submit" value="Add to cart" class="btn btn-outline-dark mt-auto" border="0" name="submit" alt="Add to cart">
+<img alt="" border="0" src="https://www.paypalobjects.com/sv_SE/i/scr/pixel.gif" width="1" height="1">
+</form>
+                            </div>
+                        </div>
+                    
