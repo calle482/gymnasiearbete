@@ -1,38 +1,25 @@
 <?php
-
+//sätter variablerna 
 if (isset($_POST['submit'])) {
 		$name= $_POST['name'];
 		$email= $_POST['mail'];
 		$message= $_POST['message'];
-	
+	//sätter vilken mail som ska mailas till
 	$mailTo = "testingwebsida@gmail.com";
+	//här sätter vi headern i mailen till mail adressen man skrev in
 	$headers= "From: ".$email;
+	//sätter medelandet och namnet man skrev in
 	$txt = "You got mail from ".$name.".\n\n".$message;
 	
 	
-	header("Location: index.php?mailsent");
-	
+	//skickar en till succsess pagen om mailet skickas 
 	if(mail($mailTo, $headers, $txt)){
     header("Location: mailsent.php");
 }else
 	{
+		//om mailet failar så kommer man till fail pagen och kan försöka igen
     header("Location: mailfail.php");
 }
 }
 
-/*
-if (isset($_POST['submit'])) {
-$receiver= "testingwebsida@gmail.com";
-$subject=$_POST['name'];
-$message="You got mail from".$sender.".\n\n".$message;;
-$sender=$_POST['mail'];
-
-
-if(mail($receiver, $subject, $message, $sender)){
-    echo "Email sent successfully to $receiver";
-}else{
-    echo "Sorry, failed while sending mail!";
-}
-}
-*/
 ?>

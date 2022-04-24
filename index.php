@@ -12,7 +12,7 @@
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- här importerar vi boostarps iconer-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
-        <!-- här importerar vi bootstratps library-->
+        <!-- här importerar vi bootstratps library och javascripty liberaryt-->
         <link href="css/styles.css" rel="stylesheet" />
 			<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" >
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" ></script>
